@@ -41,7 +41,7 @@
 //#define RPI_DISPLAY_TYPE // 20MHz maximum SPI
 
 // Only define one driver, the other ones must be commented out
-//#define ILI9341_DRIVER       // Generic driver for common displays
+#define ILI9341_DRIVER       // Generic driver for common displays
 //#define ILI9341_2_DRIVER   // Alternative ILI9341 driver, see https://github.com/Bodmer/TFT_eSPI/issues/1172
 //#define ILI9342_DRIVER     // Landscape default orientation variant of ILI9341
 //#define ST7735_DRIVER      // Define additional parameters below for this display
@@ -65,7 +65,7 @@
 //#define SSD1963_800_DRIVER
 //#define SSD1963_800ALT_DRIVER
 //#define ILI9225_DRIVER
-#define GC9A01_DRIVER
+//#define GC9A01_DRIVER
 
 // Some displays support SPI reads via the MISO pin, other displays have a single
 // bi-directional SDA pin and the library will try to read this via the MOSI line.
